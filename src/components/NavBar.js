@@ -1,4 +1,5 @@
 import {Link} from "react-router-dom";
+
 import {
     Carousel,
     CarouselItem,
@@ -41,6 +42,28 @@ return(
                     <li className="nav-item"><a href="#" className="nav-link">Interaktiv xizmatlar</a> </li>
                     <li className="nav-item"><a href="#" className="nav-link">Aloqa</a> </li>
                 </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className="top3">
+            <div className="container">
+                <div className="row">
+                    <div className="col-12">
+                        <nav className="d-flex justify-content-between align-items-center">
+                            <Link to="/" className="navbar-brand">Home</Link>
+                            <ul className="nav">
+                                <li className="nav-item">
+                                    <Link to="/login" className="text-decoration-none my-5">Login</Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link to="/footer" className="text-decoration-none my-5">Footer</Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link to="/myidea" className="text-decoration-none">Myidea</Link>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
             </div>
